@@ -28,8 +28,8 @@ import coorg from "../Components/Assets/coorg.png"
 
 const Destinations = () => {
     return (
-        <div className='lg:pt-10' id='OurDestination'>
-            <div style={{ fontFamily: "'Aeonik', sans-serif" }} className='lg:mt-20 mt-16 ' >
+        <div className='lg:pt-5' id='OurDestination'>
+            <div style={{ fontFamily: "'Aeonik', sans-serif" }} className='mt-4 ' >
                 <div className='my-5 text-center lg:text-[32px] text-2xl font-bold'>Top Destinations</div>
 
                 <div className='flex flex-wrap justify-around mx-10 mb-10 max-md:hidden'>

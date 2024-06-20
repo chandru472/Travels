@@ -14,7 +14,7 @@ const Main = () => {
           
        </div>
        <div className='sm:hidden'>
-          <img src={ram}  alt='ram' className='mt-16'/>
+          <img src={ram}  alt='ram' className='mt-12'/>
        </div>
     </div>
   )

@@ -11,7 +11,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const Book = () => {
     return (
-        <div className='max-md:mt-[-32px] mb-5 lg:mt-20' style={{ fontFamily: "'Aeonik', sans-serif" }} >
+        <div className='max-md:mt-12 mb-5 lg:mt-20' style={{ fontFamily: "'Aeonik', sans-serif" }} >
             <div className='lg:text-[32px] text-2xl font-bold text-center lg:tracking-widest'>Why Book With Traveller?</div>
 
             <div className='mt-5 mb-5  flex justify-around items-center flex-wrap max-md:hidden'>

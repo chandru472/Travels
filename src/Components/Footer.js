@@ -55,7 +55,7 @@ const Footer = () => {
 
       <div className='bg-black h-[1px] w-full mt-5'></div>
 
-      <div className=' my-3 text-base font-light text-center mt-6'>Traveller &copy; 2024 | Designed and Developed By Chandru & Manojkumar</div>
+      <div className=' my-3 text-base font-semibold text-center mt-6'>Traveller &copy; 2024 | Designed and Developed By Chandru</div>
 
 
 

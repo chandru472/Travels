@@ -27,8 +27,8 @@ import utrap from "../Components/Assets/utrap.png"
 
 const Packages = () => {
     return (
-        <div className='lg:pt-10' id='Packages'>
-            <div style={{ fontFamily: "'Aeonik', sans-serif" }} className='lg:mt-20 mt-16' >
+        <div className='lg:pt-5' id='Packages'>
+            <div style={{ fontFamily: "'Aeonik', sans-serif" }} className=' mt-4' >
                 <div className='my-5 text-center lg:text-[32px] text-2xl font-bold tracking-wider'>Top Packages</div>
 
 
