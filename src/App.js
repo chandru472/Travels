@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './Components/Navbar';
+import Main from './Components/Main';
+import Book from './Components/Book';
+import Destinations from './Components/Destinations';
+import Flex from './Components/Flex';
+import Cancel from './Components/Cancel';
+import Packages from './Components/Packages';
+import Attractions from './Components/Attractions';
+import Footer from './Components/Footer';
+import { BrowserRouter } from 'react-router-dom';
+import Emty from './Components/Emty';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+const App = () =>
+{
+  return(
+    <BrowserRouter>
+      <Navbar  />
+      <Emty/>
+      <Main />
+      <Book />
+      <Flex />
+      <Destinations />
+      <Cancel />
+      <Packages />
+      <Attractions />
+      <Footer />
+    </BrowserRouter>
+  )
 }
 
 export default App;
